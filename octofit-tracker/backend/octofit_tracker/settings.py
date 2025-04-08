@@ -29,7 +29,11 @@ SECRET_KEY = "django-insecure-qm$2%-+(jmn*xno=!uh#1opa@&^y&8*)rsw9%a_e5e_xnd#se!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'psychic rotary-phone-8000.app.github.dev'
+]
 
 
 # Application definition
